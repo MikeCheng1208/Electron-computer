@@ -12,7 +12,7 @@
 以下專案的關鍵檔案:
 
 - `package.json` - 所有使用到的package檔案，使用npm或是yarn安裝需要它.
-- `main.js` - javscript寫應用程式都在這支檔案裡面.
+- `main.js` - javascript寫應用程式都在這支檔案裡面.
 - `index.html` - 應用程式的ui介面，就跟一般web開發一樣
 
 
