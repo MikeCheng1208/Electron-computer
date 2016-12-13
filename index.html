@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>應用程式!</title>
+    <script src="./js/vue.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div id="app">
+        <input id="inpInt" name="Num" type="text" placeholder="輸入計算" v-model="intVal" @input="ValidateNumber" input @keyup.enter="onEnter" ref='input'>
+    </div>
+    <script>
+        require('./js/renderer.js')
+    </script>
+</body>
+</html>
