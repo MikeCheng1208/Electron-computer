@@ -39,4 +39,5 @@ npm start
 # 打包應用程式出來
 npm run pack
 ```
-
+*應用程式下載
+<goo.gl/CM8vno>
