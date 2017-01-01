@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="app">
-        <input id="inpInt" name="Num" type="text" placeholder="輸入計算" v-model="intVal" @input="ValidateNumber" input @keyup.enter="onEnter" ref='input'>
+        <input id="inpInt" name="Num" type="text" placeholder="輸入計算" v-model="intVal" @input="ValidateNumber" input @keyup.enter="onEnter" @keyup.space="onSpace" ref='input'>
     </div>
     <script>
         require('./js/renderer.js')

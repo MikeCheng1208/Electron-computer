@@ -13,6 +13,10 @@ var app = new Vue({
             }catch(e){
                 alert("請輸入正確的數學運算式")
             }
+        },
+        onSpace:function(){
+             this.intVal = '';
+             console.log("隱藏");
         }
     },
     mounted:function(){

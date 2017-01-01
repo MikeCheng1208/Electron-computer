@@ -46,6 +46,11 @@ function createWindow () {
           mainWindow.hide();  //視窗隱藏
         }
     })
+    //鍵盤控制
+    globalShortcut.register('Esc', () => {
+        isActive = false;
+        mainWindow.hide();  //視窗隱藏
+    })
 
 
     createTray();   
