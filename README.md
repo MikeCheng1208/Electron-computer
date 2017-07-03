@@ -32,9 +32,6 @@ npm start
 
 使用Yarn來進行安裝package.json
 
-* 有安裝問題請參考
-<https://github.com/a3804430/vue-template>
-
 ```bash
 # 打包應用程式出來
 npm run pack
